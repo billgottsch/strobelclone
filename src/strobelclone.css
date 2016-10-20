@@ -1,0 +1,76 @@
+html, body{
+  padding: 0;
+  margin:0;
+  font-size:15px;
+  font-family: sans-serif;
+  width:100%;
+  box-sizing:border-box;
+}
+
+#holder-info{
+  height:100%;
+  width:50%;
+  background-color:#1560FB;
+  float:left;
+  position:fixed;
+  display:inline-block;
+}
+
+.info-award{
+
+}
+
+.info-main{
+  top: 25%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.info-headshot{
+  height: 170px;
+  width: 170px;
+  border-radius: 200px;
+  box-shadow: 0 10px 15px;
+  color:#0A4DD9;
+  margin-left:235px;
+}
+
+.info-howdie{
+  text-align:center;
+  font-weight: bold;
+  margin: 20px auto auto auto;
+  color:#A1BFFD;
+  font-size: 12px;
+}
+
+.info-text{
+}
+
+.info-text-more{
+  text-align:center;
+  font-weight: bolder;
+  color:whitesmoke;
+  margin:10px auto;
+  font-size: 38px;
+  padding: 0 20px;
+}
+.emailbutton{
+  border: 2px solid white;
+  border-radius: 1px;
+  display:inline;
+  height:20px;
+  weight:20px;
+}
+.info-button:hover {
+    color:whitesmoke;
+    background-color: #0a4dd9;
+
+}
+#holder-main{
+  height: 100%;
+  width: 50%;
+  float:right;
+  display: inline-block;
+}
