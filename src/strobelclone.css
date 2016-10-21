@@ -17,15 +17,25 @@ html, body{
 }
 
 .info-award{
+  display:block;
+  position:relative;
+  top:20px;
+  left:0;
+}
+.info-award a{
+  width:73px;
+  height:56px;
+  background-image: url(https://s3.amazonaws.com/onepagelove/one-page-love-award-left.png);
+  background-repeat:no-repeat;
+  display:block;
 
 }
 
 .info-main{
-  top: 25%;
+  top:15%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .info-headshot{
@@ -40,7 +50,7 @@ html, body{
 .info-howdie{
   text-align:center;
   font-weight: bold;
-  margin: 20px auto auto auto;
+  margin: 25px auto auto auto;
   color:#A1BFFD;
   font-size: 12px;
 }
@@ -56,21 +66,154 @@ html, body{
   font-size: 38px;
   padding: 0 20px;
 }
-.emailbutton{
-  border: 2px solid white;
-  border-radius: 1px;
-  display:inline;
-  height:20px;
-  weight:20px;
+
+.info-text-more a{
+  color:white;
 }
-.info-button:hover {
-    color:whitesmoke;
-    background-color: #0a4dd9;
+
+.emailbutton{
+  margin: 40px auto auto auto;
+  color:white;
+  background:#1560FB;
+  background-color:#1560FB;
+  display:block;
+  position:relative;
+  width:200px;
+  padding: 11px 24px;
+  border-radius: 3px;
+  border-width: 2px;
+  border-style: solid;
+  font-weight:700;
+  height:22px;
+}
+
+.info-madeby{
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  height: 27px;
+}
+.info-madeby-footer{
+  float:left;
+  margin: 0 0 0 10px;
+  font-size:12px;
+  padding-top:7px;
+  color:white;
+  text-decoration: none;
+  opacity:0.6;
+}
+.info-social{
+  position: absolute;
+  height:27px;
+  right: 20px;
+  bottom:20px;
 
 }
+
+.emailbutton:hover{
+  background-color:#1560FB;
+  color:white;
+}
+
 #holder-main{
-  height: 100%;
-  width: 50%;
+  position: fixed;
+  top:0;
+  right: 0;
+  height:100%;
+  width:45%;
   float:right;
-  display: inline-block;
+  text-align: left;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  display:inline-block;
+  margin: 40px 0 0 0;
+}
+
+.main-aboutme{
+  display:block;
+  margin:40px 0 0 0;
+}
+.main-aboutme-tag{
+  margin: 5px 30px 0 0;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color:#1560FB;
+  font-weight: bold;
+  text-align:left;
+  display:block;
+  float:left;
+  width:80px;
+}
+
+.main-aboutme-text{
+  max-width: 500px;
+  width: 75%;
+  line-height: 26px;
+  word-wrap: break-word;
+  display:block;
+  text-align: left;
+  float:left;
+  font-size: 14px;
+  font-weight:400;
+  margin:0;
+}
+
+.main-aboutme-list{
+  margin:20px 0 0 110px;
+  float:left;
+  list-style-type:none;
+  padding: 0;
+}
+
+.aboutme-item::before{
+  content: "\203A";
+  font-size: 18px;
+  margin-right: 20px;
+  color: #1560FB;
+}
+
+.aboutme-item{
+  margin-bottom:10px;
+  font-weight:700;
+
+}
+
+.main-projects{
+  clear:both;
+  display:block;
+  margin:40px 0 0 0;
+  overflow:auto;
+  float:right;
+}
+
+.main-projects-tag{
+margin: 5px 30px 0 0;
+font-size: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color:#1560FB;
+font-weight: 600px;
+text-align:left;
+display:block;
+float:left;
+width:80px;
+}
+
+
+.main-projects-text{
+max-width: 500px;
+width: 75%;
+line-height: 26px;
+word-wrap: break-word;
+display:block;
+text-align: left;
+float:left;
+font-size: 14px;
+font-weight:400;
+}
+
+
+.main-projects-text p{
+margin: 0px;
 }
